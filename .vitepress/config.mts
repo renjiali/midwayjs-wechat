@@ -7,7 +7,10 @@ export default defineConfig({
   srcDir: "views",
   themeConfig: {
     socialLinks: [{ icon: "github", link: "https://github.com/renjiali" }],
-    nav: [{ text: "指南", link: "/guide" }],
+    nav: [
+      { text: "指南", link: "/guide" },
+      { text: "更新日志", link: "/releases" },
+    ],
     sidebar: [
       {
         text: "指南",

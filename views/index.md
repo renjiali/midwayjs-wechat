@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 快速上手
-      link: /markdown-examples
+      link: /guide
     - theme: alt
       text: 在 GitHub 上查看
-      link: /api-examples
+      link: https://github.com/renjiali/renjiali.github.io
 
 features:
   - title: 所见即所得

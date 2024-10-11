@@ -4,18 +4,17 @@ export default defineConfig({
   title: "midwayjs-wechat",
   description: "一个关于midwayjs的微信API库",
   lang: "zh-cmn-Hans",
+  srcDir: "views",
   themeConfig: {
     socialLinks: [{ icon: "github", link: "https://github.com/renjiali" }],
-    nav: [
-      { text: "微信登录", link: "/" },
-      { text: "微信支付", link: "/markdown-examples" },
-    ],
+    nav: [{ text: "指南", link: "/guide" }],
     sidebar: [
       {
-        text: "介绍",
+        text: "指南",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "为什么使用这个插件？", link: "/guide/why" },
+          { text: "开始", link: "/guide/" },
+          { text: "配置", link: "/guide/config" },
         ],
       },
     ],

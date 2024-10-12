@@ -5,6 +5,7 @@ export default defineConfig({
   description: "一个关于midwayjs的微信API库",
   lang: "zh-cmn-Hans",
   srcDir: "views",
+  lastUpdated: true,
   themeConfig: {
     socialLinks: [{ icon: "github", link: "https://github.com/renjiali" }],
     nav: [
@@ -21,5 +22,12 @@ export default defineConfig({
         ],
       },
     ],
+    lastUpdated: {
+      text: "最后更新于",
+      formatOptions: {
+        dateStyle: "medium",
+        timeStyle: "medium",
+      },
+    },
   },
 });

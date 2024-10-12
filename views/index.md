@@ -12,7 +12,7 @@ hero:
       link: /guide
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/renjiali/renjiali.github.io
+      link: https://github.com/renjiali/midwayjs-wechat
 
 features:
   - title: 所见即所得

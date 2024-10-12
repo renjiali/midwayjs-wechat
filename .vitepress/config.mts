@@ -29,5 +29,11 @@ export default defineConfig({
         timeStyle: "medium",
       },
     },
+    footer: {
+      copyright: 'Copyright © 2024-present <a href="https://github.com/renjiali">RenJiaLi</a>',
+    },
+    search: {
+      provider: "local",
+    },
   },
 });
